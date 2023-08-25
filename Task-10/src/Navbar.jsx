@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-md  bg-secondary mb-2">
+    <nav className="navbar navbar-expand-md  ">
       <div className="container">
         <div className="logo navbar-brand text-light fw-bold fs-2">
           TAMILNADU TOURISM          
@@ -28,12 +28,12 @@ const Navbar = () => {
         <div className={`collapse navbar-collapse ${nav ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto gap-2  ">
             <li className="nav-item">
-              <Link smooth to="#home" className="nav-link text-light fst-italic fw-bold">
+              <Link smooth to="/" className="nav-link text-light fst-italic fw-bold">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth to="#" className="nav-link text-light fst-italic fw-bold">
+              <Link smooth to="/Place_Visit" className="nav-link text-light fst-italic fw-bold">
                 Place To Visit
               </Link>
             </li>
@@ -58,8 +58,12 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div>   
       </div>
+      <style>
+          {`.navbar {background-color: #c9c5c3;}` 
+          }
+        </style>
     </nav>
   );
 };
