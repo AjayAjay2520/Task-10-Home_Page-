@@ -1,19 +1,18 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../Components/Place-Visit.css";
 
- import Chennai from "../../src/Components/Place-Visit-Dirstict/Chennai"
- import Hogenakkal from "../../src/Components/Place-Visit-Dirstict/Hogenakkal"
- import Kanyakumari from "../../src/Components/Place-Visit-Dirstict/Kanyakumari"
- import Kumbakonam from "../../src/Components/Place-Visit-Dirstict/Kumbakonam"
- import Madurai from "../../src/Components/Place-Visit-Dirstict/Madurai"
- import Ooty from "../../src/Components/Place-Visit-Dirstict/Ooty"
- import Rameshwaram from "../../src/Components/Place-Visit-Dirstict/Rameshwaram"
- import Theni from "../../src/Components/Place-Visit-Dirstict/Theni"
- import Yarcaud from "../../src/Components/Place-Visit-Dirstict/Yarcaud"
- import Kodaikanal from "../../src/Components/Place-Visit-Dirstict/Kodaikanal"
+import Chennai from "../../src/Components/Place-Visit-Dirstict/Chennai"
+import Hogenakkal from "../../src/Components/Place-Visit-Dirstict/Hogenakkal"
+import Kanyakumari from "../../src/Components/Place-Visit-Dirstict/Kanyakumari"
+import Kumbakonam from "../../src/Components/Place-Visit-Dirstict/Kumbakonam"
+import Madurai from "../../src/Components/Place-Visit-Dirstict/Madurai"
+import Ooty from "../../src/Components/Place-Visit-Dirstict/Ooty"
+import Rameshwaram from "../../src/Components/Place-Visit-Dirstict/Rameshwaram"
+import Theni from "../../src/Components/Place-Visit-Dirstict/Theni"
+import Yarcaud from "../../src/Components/Place-Visit-Dirstict/Yarcaud"
+import Kodaikanal from "../../src/Components/Place-Visit-Dirstict/Kodaikanal"
 
- import Place from "../images/Place.jpeg"
+import Place from "../images/Place.jpeg"
 
 const Place_to_visit = () => {
   return (
@@ -45,6 +44,69 @@ const Place_to_visit = () => {
       <Yarcaud/>
       <Kodaikanal/>
 
+    <style>
+    {`/* -------Place-Visit CSS------------ */
+      .play{
+          margin-top: 50px;
+      }
+      .row .col-6 h2{
+          margin-bottom: 30px;
+      }
+      .row .col-6 p{
+          text-indent: 100px;
+          letter-spacing: 2px;
+          text-align:justify ;
+      }
+      .row .col-4 img{
+          margin-right: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+      .row .col-4 {
+          justify-content: space-between; 
+          height: 550px; 
+          width: 650px;
+          margin-right: 0;
+      }
+      .row .col-4 p{
+          text-align: center;
+      }
+      .container .pase_p{
+          text-indent: 100px;
+          letter-spacing: 2px;
+          text-align:justify;
+          margin-top:10px;
+          margin-left: 0;
+          margin-bottom: 80px;
+      }
+      .chennai .heading{
+          text-align: center;
+      }
+      .chennai{
+          margin-top: 60px;
+          margin-bottom: 30px;
+      }
+      .left_card{
+          display: flex;
+          margin:60px 0px;
+          justify-content: space-between;
+      }
+      .left_card .image img{
+          margin-left: 0;
+          width: 250px;
+          height:100%;  
+      }
+      .left_card .card-1 p{
+          text-indent: 80px;
+          letter-spacing: 2px;
+          text-align:justify ;
+          font-size: 15px;
+          padding: 3px;   
+      }`
+          
+    }
+    </style>
     </div>
   );
 };
