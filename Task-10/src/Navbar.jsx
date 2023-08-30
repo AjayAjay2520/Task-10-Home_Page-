@@ -53,7 +53,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth to="#" className="nav-link text-light fst-italic fw-bold ">
+              <Link smooth to="/Food" className="nav-link text-light fst-italic fw-bold ">
                 Food
               </Link>
             </li>
